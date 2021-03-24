@@ -1,0 +1,23 @@
+﻿@model List<Car>
+
+<form asp-action="Results" asp-controller="Home">
+    <select name="Category">
+        <option value="make">Make</option>
+        <option value="model">Model</option>
+        <option value="color">Color</option>
+        <option value="year">Year</option>
+
+        <input type="text" name="search"/>
+
+        <input type="submit"/>
+    </select>
+</form>
+
+@foreach (Car car in Model)
+{
+    <h3>Car #@car.id</h3>
+    <p>Make: @car.make</p>
+    <p>Model: @car.model</p>
+    <p>Color: @car.color</p>
+    <p>Year: @car.year</p>
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GJLkQhUYLFjTzPGY/b4DERcGkkYPcjfhwD8nyLO9PnxFbUPnubqKHRLKnbkooduSVuFXVcSRzJVKiX571zy4Mg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sheeh\\source\\repos\\CarCapstone\\CarWebApp\\CarWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sheeh\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
